@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智慧监管平台</title>
+</head>
+<style>
+    * {
+        margin: 0;
+
+        padding: 0;
+    }
+
+    .yzj {
+
+        position: fixed;
+        width: 350px;
+        height: 50px;
+        background-image: url(img/yzjhayy.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: cover;
+        top: 0;
+        left: 0;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 100vh;
+        background: rgb(189, 99, 99);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(img/cqbjt.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .btn-box {
+        /* height: 400; */
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        /* background-color: palevioletred; */
+
+        /* margin-left: 250px;
+            margin-top: 50px; */
+    }
+
+    h1 {
+        position: fixed;
+        text-align: center;
+        top: 120px;
+        font-size: 50px;
+        color: rgb(48, 42, 42);
+
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+    p:hover {
+
+        color: palegreen;
+
+    }
+
+    .safe {
+        background-size: cover;
+
+    }
+
+    .box {
+        position: relative;
+        width: 300px;
+        height: 125px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        user-select: none;
+        margin: 5px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+
+
+    }
+
+    .box:nth-of-type(1) {
+        background: linear-gradient(150deg,
+                rgba(27, 178, 224, 0.5),
+                rgba(127, 47, 152, 0.5));
+    }
+
+    .ripple {
+        display: block;
+        position: absolute;
+        border-radius: 100%;
+        background: rgba(255, 255, 255, 0.5);
+        transform: scale(0);
+
+    }
+</style>
+
+
+
+<body>
+
+    <div class="yzj"></div>
+
+    <h1>江苏海岸药业有限公司 智慧监管平台</h1>
+
+
+    <div class="btn-box">
+
+        <a href="https://172.18.0.17:450/portal/ui/login?service=https%3A%2F%2F172.18.0.17%3A450%2Fportal%2F"
+            target="_blank" class="safe">
+            <div class="box">
+                <span class="ripple">
+                </span>
+                <p>综合安全平台</p>
+            </div>
+        </a>
+
+        <a href="https://www.jiandaoyun.com/signin?redirect_uri=%2Fapp%2F667e6b79374f9e3f1b66f5cf%2Fentry%2F666bbbcb96d32e279f745328"
+            target="_blank">
+            <div class="box">
+                <span class="ripp"> </span>
+                <p>简道云</p>
+            </div>
+        </a>
+
+        <a href="https://ycxz.goolton.com/user/login" target="_blank">
+            <div class="box">
+                <span class="ripp"> </span>
+                <p>AR远程指导系统</p>
+            </div>
+        </a>
+
+
+        <a href="https://xj.goolton.com/user/login" target="_blank">
+            <div class="box">
+                <span class="ripp"> </span>
+                <p>海岸综合管理平台</p>
+            </div>
+        </a>
+
+    </div>
+
+
+</body>
+
+</html>
